@@ -1,0 +1,44 @@
+.about-section-desc {
+    background-color: #ffa62b
+}
+
+.about-section-desc h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.about-section-intro {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 300px;
+    background-color: white;
+}
+
+.about-section-intro span {
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.job-title {
+    font-weight: bold;
+    display: inline-block;
+}
+
+.navbar-color {
+    background-color: #16697a;
+}
+
+.nav-sections {
+    font-weight: bold;
+}
+
+.name-color {
+    color: #16697a;
+    display: inline-block;
+}
+
+
+#particles-js {
+    height: 800px;
+}
