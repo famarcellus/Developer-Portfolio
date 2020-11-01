@@ -1,11 +1,37 @@
 .about-section-desc {
-    background-color: #ffa62b
+    background-color: #a8dda8;
+    padding-bottom: 60px;
+    padding-top: 50px;
 }
 
-.about-section-desc h1 {
+.about-section-desc h2 {
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 80px;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    -webkit-text-stroke: 2.3px #546E54; /* width and color */
 }
+
+.about-section-desc h4 {
+    color: black;
+    -webkit-text-stroke: 0.1px black; /* width and color */
+    margin-bottom: 50px;
+}
+
+.about-section-desc span {
+    font-weight: bold;
+}
+
+.contain-desc {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.my-wrapper {
+    height: 100%;
+}
+
 
 .about-section-intro {
     position: absolute;
@@ -17,7 +43,7 @@
 
 .about-section-intro span {
     margin-bottom: 0px;
-    margin-top: 10px;
+    margin-top: 0px;
 }
 
 .job-title {
@@ -38,7 +64,11 @@
     display: inline-block;
 }
 
+.valign-wrapper {
+    display: inline-block;
+}
+
 
 #particles-js {
-    height: 800px;
+    height: 905px;
 }
