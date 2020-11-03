@@ -1,7 +1,7 @@
 .about-section-desc {
     background-color: #a8dda8;
-    padding-bottom: 60px;
-    padding-top: 50px;
+    padding-bottom: 90px;
+    padding-top: 80px;
 }
 
 .about-section-desc h2 {
@@ -66,6 +66,54 @@
 
 .valign-wrapper {
     display: inline-block;
+}
+
+.projects-section {
+    background-color: #effad3;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-bottom: 90px;
+    padding-top: 80px;
+}
+
+.projects-section h2 {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    -webkit-text-stroke: 2.3px#474B3F; /* width and color */
+}
+
+.single-project h3 {
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.single-project h4 {
+    margin-bottom: 30px;
+}
+
+.single-project a {
+    margin-bottom: 30px;
+}
+
+.single-project img {
+    border: 5px solid #555;
+}
+
+/* Footer Section */
+#contact-me-title {
+    font-weight: bold;
+}
+
+.contact-methods img {
+    width: 30px;
+    height: 30px;
+}
+
+.contact-methods a {
+    margin-bottom: 5px;
 }
 
 
