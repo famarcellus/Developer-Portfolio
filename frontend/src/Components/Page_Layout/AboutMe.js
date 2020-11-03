@@ -4,7 +4,7 @@ import React from "react";
 function AboutMe() {
 
     return (
-        <div>
+        <section>
             <div id="particles-js">
                 <div className="about-section-intro">
                     <h1>Hi, my name is <span className="name-color">Fabio Marcellus.</span></h1>
@@ -17,13 +17,13 @@ function AboutMe() {
                     <div className="my-wrapper valign-wrapper center-align">
                         <h2>ABOUT ME</h2>
                         <h4>I am a <span>self-taught</span> web developer who loves working 
-                        on the Front End and is familiar with the Back End of applications. One of my greatest strengths is my attention to detail. 
+                        on the Front End and is familiar with the Back End of applications. I like to make appealing designs but most importantly ensure it is <span>responsive.</span> One of my greatest strengths is my attention to detail. 
                         I have created projects using HTML, CSS, Javascript, MongoDB, Express.js, React, Node.js, Materialize, Bootstrap and more!</h4>
                         <a className="waves-effect waves-light btn-large">View Resume<i class="material-icons right">description</i></a>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

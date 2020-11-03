@@ -6,7 +6,7 @@ import ProjectData from "../../Data/ProjectData";
 
 function Projects() {
     return (
-        <div className="projects-section">
+        <section className="projects-section">
             <h2>PROJECTS</h2>
             <div className="container">
                 {ProjectData.map((item) => {
@@ -23,7 +23,7 @@ function Projects() {
                 })}
                 
             </div>
-        </div>
+        </section>
     )
 }
 

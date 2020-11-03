@@ -7,12 +7,12 @@ import Footer from "./Page_Layout/Footer";
 
 function App() {
   return (
-    <div>
+    <main>
       <NavBar />
       <AboutMe />
       <Projects />
       <Footer />
-    </div>
+    </main>
   );
 }
 

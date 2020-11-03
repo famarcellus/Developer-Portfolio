@@ -4,7 +4,7 @@ import React from "react";
 function NavBar(props) {
     
     return (
-        <header>
+        <nav>
         <div className="navbar-fixed">
             <nav>
                 <div className="nav-wrapper navbar-color">
@@ -24,7 +24,7 @@ function NavBar(props) {
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-        </header>
+        </nav>
         
     )
     
