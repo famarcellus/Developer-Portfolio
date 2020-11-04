@@ -28,14 +28,14 @@ function IndividualProject(props) {
             <div className="single-project">
                 <div className="col s12 l6">
                     <h3 className="title">{props.title}</h3>
-                    <h4>{props.description}</h4>
+                    <h4 className="paragraph-line-height">{props.description}</h4>
                     {props.technologies.map((item) => {
                         return (
                             <a type="button" className="waves-effect waves-light btn-small green darken-2">{item}</a>
                         )
                     })}
                     <a type="button" href={props.sourceLink} className="waves-effect waves-light btn-small indigo darken-1">Source Code</a>
-                    {hasLiveLink ? <a type="button" href={props.liveLink} className="waves-effect waves-light btn-small indigo darken-1">Live Link</a> : <a class="btn disabled">Live Link: This site</a>}
+                    {hasLiveLink ? <a type="button" href={props.liveLink} className="waves-effect waves-light btn-small indigo darken-1">Live Link</a> : <a className="btn disabled black-text text-darken-2">Live Link: This site</a>}
                     
 
                 </div>

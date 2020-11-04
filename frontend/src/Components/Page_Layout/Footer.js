@@ -8,7 +8,7 @@ function Footer() {
             <div class="row">
               <div class="col l6 s12">
                 <h5 class="white-text" id="contact-me-title">Contact Me</h5>
-                <p class="grey-text text-lighten-4">I'm looking for Front End Developer roles that present challenges and offer opportunities for professional growth.</p>
+                <p class="grey-text text-lighten-4 description">I'm looking for Front End Developer roles that present challenges and offer opportunities for professional growth.</p>
               </div>
               <div class="col l4 offset-l2 s12 contact-methods">
                 <ul>
