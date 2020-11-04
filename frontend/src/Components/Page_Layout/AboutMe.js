@@ -4,21 +4,23 @@ import React from "react";
 function AboutMe() {
 
     return (
-        <section>
+        <section id="about-section">
             <div id="particles-js">
-                <div className="about-section-intro">
+                <div id="about-section-intro">
                     <h1>Hi, my name is <span className="name-color">Fabio Marcellus.</span></h1>
                     <h1>I'm a <span className="job-title">Front End Developer!</span></h1>
                 </div>
             
             </div>
-            <div className="about-section-desc">
+            <div id="about-section-desc">
                 <div className="container">
                     <div className="my-wrapper valign-wrapper center-align">
-                        <h2>ABOUT ME</h2>
-                        <h4 className="paragraph-line-height">I am a <span>self-taught</span> web developer who loves working 
-                        on the Front End and is familiar with the Back End of applications. I like to make appealing and <span>accessible</span> applications but most importantly ensure it is <span>responsive.</span> One of my greatest strengths is my attention to detail. 
-                        I have created projects using HTML, CSS, Javascript, MongoDB, Express.js, React, Node.js, Materialize, Bootstrap and more!</h4>
+                        <h2 className="titles">ABOUT ME</h2>
+                        <h4 className="paragraph-line-height background-info">I am a <b>self-taught</b> web developer who loves working 
+                        on the Front End and is familiar with the Back End of applications. I like to make appealing and <b>accessible</b> applications but most importantly, ensure it is <b>responsive.</b> One of my greatest strengths is my attention to detail. 
+                        </h4>
+                        <h2 className="titles skills-section">SKILLS</h2>
+                        <h4 className="skills-section color-skills">HTML, CSS/SCSS, JavaScript, JSX, React, JSON, Webpack, Git, Github</h4>
                         <a className="waves-effect waves-light btn-large">View Resume<i class="material-icons right">description</i></a>
                     </div>
                 </div>

@@ -6,8 +6,8 @@ import ProjectData from "../../Data/ProjectData";
 
 function Projects() {
     return (
-        <section className="projects-section">
-            <h2>PROJECTS</h2>
+        <section id="projects-section">
+            <h2 className="title">PROJECTS</h2>
             <div className="container">
                 {ProjectData.map((item) => {
                     return (
