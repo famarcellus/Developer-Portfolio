@@ -30,10 +30,10 @@ function IndividualProject(props) {
                 <h4 className="paragraph-line-height project-desc">{props.description}</h4>
                 {props.technologies.map((item) => {
                     return (
-                        <a type="button" className="waves-effect waves-light btn-small green darken-2">{item}</a>
+                        <a type="button" className="waves-effect waves-light btn-small orange darken-4">{item}</a>
                     )
                 })}
-                <a type="button" href={props.sourceLink} className="waves-effect waves-light btn-small indigo darken-1">Source Code</a>
+                <a type="button" href={props.sourceLink} className="waves-effect waves-light btn-small indigo darken-1">Source Code Link</a>
                 {hasLiveLink ? <a type="button" href={props.liveLink} className="waves-effect waves-light btn-small indigo darken-1">Live Link</a> : <a className="btn disabled black-text text-darken-2">Live Link: This site</a>}
                     
 

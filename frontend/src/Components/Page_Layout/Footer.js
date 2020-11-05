@@ -13,8 +13,8 @@ function Footer() {
               <div class="col l4 offset-l2 s12 contact-methods">
                 <ul>
                   <li><h6 class="grey-text text-lighten-3">Email</h6></li>
-                  <li><a class="waves-effect waves-light btn blue-grey lighten-4" href="https://github.com/famarcellus"><img src="/images/github.png"></img></a></li>
-                  <li><a class="waves-effect waves-light btn blue-grey lighten-4 transparent" href="https://www.linkedin.com/in/fabio-marcellus-a7b324196/"><img src="/images/linkedin.png"></img></a></li>
+                  <li><a class="waves-effect waves-light btn blue-grey lighten-4" href="https://github.com/famarcellus"><img src="/images/github.png" alt="Github Logo"></img></a></li>
+                  <li><a class="waves-effect waves-light btn blue-grey lighten-4 transparent" href="https://www.linkedin.com/in/fabio-marcellus-a7b324196/"><img src="/images/linkedin.png" alt="LinkedIn Logo"></img></a></li>
                 </ul>
               </div>
             </div>

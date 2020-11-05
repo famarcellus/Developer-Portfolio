@@ -6,6 +6,10 @@
     line-height: 1.5;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* ----- NavBar ----- */
 
 nav {
@@ -47,6 +51,7 @@ nav {
         .job-title {
             font-weight: bold;
             display: inline-block;
+            margin-bottom: 30px;
         }
         
         span {
@@ -99,7 +104,8 @@ nav {
 
 #projects-section {
 
-    background-color: #effad3;
+    /* background-color: #effad3; */
+    background-color: #28abb9;
     margin-bottom: 0px;
     margin-top: 0px;
     padding-bottom: 90px;
@@ -111,7 +117,8 @@ nav {
         text-align: center;
         color:white;
         font-weight: bold;
-        -webkit-text-stroke: 2.3px#474B3F; /* width and color */
+        /* -webkit-text-stroke: 2.3px#474B3F; /* width and color */ 
+        -webkit-text-stroke: 2.3px #18666F;
     }
 
     /* -- Individual Projects -- */
@@ -128,7 +135,7 @@ nav {
         }
 
         img {
-            border: 5px solid #555;
+            border: 3px solid grey;
         }
 
         .project-desc {
@@ -144,6 +151,7 @@ nav {
 
 #footer-section {
 
+    padding-top: 50px;
     a {
         margin-bottom: 5px;
     }
