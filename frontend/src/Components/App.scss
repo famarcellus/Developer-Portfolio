@@ -1,3 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+ul {
+    list-style: none;
+
+    a {
+        text-decoration: none;
+    }
+}
+
 .valign-wrapper {
     display: inline-block;
 }
@@ -10,26 +26,100 @@ html {
     scroll-behavior: smooth;
 }
 
+main {
+    margin: 0px;
+    padding: 0px;
+}
+
+
 /* ----- NavBar ----- */
 
 nav {
+    font-family: 'Titillium Web', sans-serif;
 
-    .navbar-color {
+    .navbar {
         background-color: #16697a;
+        height: 50px;
+        margin-top: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: 8px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 2;
     }
-    
-    .nav-sections {
+
+    .sections {
         font-weight: bold;
+        display: flex;
+        justify-content: flex-end;
+        margin: 0px;
+        align-items: center;
+        
+        li {
+            margin-left: 10px;
+        }
+
+        .items {
+            padding: 14px 16px;
+            background-color: transparent;
+            text-decoration: none;
+            color: white;
+            display:none;
+        }
+
+        .items:hover {
+            background-color: #125462;
+        }
+
+        .hamburger {
+            padding: 14px 16px;
+            background-color: transparent;
+            text-decoration: none;
+            color: white;
+        }
+
+        .hamburger:hover {
+            background-color: silver;
+        }
+    }
+
+    .mobile-menu {
+
+        position: fixed;
+        margin-top: 50px;
+        display: none;
+        z-index: 4;
+        padding: 0px;
+    
+        a {
+            display: block;
+            padding-right: 789px;
+            text-decoration: none;
+            background-color: #22a1bb;
+            color: white;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 5px;
+        }
+        
+        a:hover {
+            background-color: #555;
+        }
+        
     }
 
 }
 
 
+    
 /* ----- About Me ----- */
-#about-section {
+.about-section {
 
     #particles-js {
-        height: 905px;
+        height: 1005px;
     }
 
     /* -- Intro -- */
@@ -172,7 +262,35 @@ nav {
 
 
 
+@media only screen and (min-width: 768px) {
 
+    nav {
+
+        .navbar {
+
+            .sections {
+
+                .items {
+                    display: inline;
+                }
+    
+                .hamburger {
+                    display: none;
+                }
+            }
+        }
+        
+
+        .mobile-menu {
+            
+            a {
+                display: none;
+            }
+        }
+    }
+
+    
+}
 
 
  

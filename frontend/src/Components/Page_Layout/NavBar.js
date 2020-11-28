@@ -3,26 +3,31 @@ import React from "react";
 
 function NavBar(props) {
     
+    function toggleMenu() {
+        let x = document.getElementsByClassName("mobile-menu")[0];
+        if(x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+
+
     return (
         <nav>
-        <div className="navbar-fixed">
-            <nav>
-                <div className="nav-wrapper navbar-color">
-                    <a href="#" data-target="mobile-links" className="sidenav-trigger"><i className="material-icons">menu</i></a>
-                    <ul className="right hide-on-med-and-down nav-sections">
-                        <li><a href="#about-section-desc">About Me</a></li>
-                        <li><a href="#projects-section">Projects</a></li>
-                        <li><a href="#footer-section">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-
-            <ul className="sidenav" id="mobile-links">
-                <li><a href="#about-section-desc">About Me</a></li>
-                <li><a href="#projects-section">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            <div className="navbar">
+                <ul className="sections">
+                    <li><a className="items" href="#about-section-desc">About</a></li>
+                    <li><a className="items" href="#projects-section">Projects</a></li>
+                    <li><a className="items" href="#footer-section">Contact</a></li>
+                    <li><a className="hamburger" href="javascript:void(0)" onClick={() => {toggleMenu()}}><i className="fa fa-bars"></i></a></li>
+                </ul>
+            </div>
+            <div className="mobile-menu">
+                <a href="#about-section-desc">About</a>
+                <a href="#projects-section">Projects</a>
+                <a href="#footer-section">Contact</a>    
+            </div>
         </nav>
         
     )
